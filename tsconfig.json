@@ -18,8 +18,9 @@
         "name": "next"
       }
     ],
-    "ignoreDeprecations": "6.0",
-    "baseUrl": ".",
+    // depreciation dan base url gaperlu, karena semenjak ts 7.0 langsung ke path
+    // "ignoreDeprecations": "5.0",
+    // "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]
     },
